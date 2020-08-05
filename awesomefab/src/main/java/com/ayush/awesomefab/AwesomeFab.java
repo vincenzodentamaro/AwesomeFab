@@ -287,7 +287,7 @@ public class AwesomeFab extends RelativeLayout implements View.OnClickListener {
             public void run() {
                 animateOut(i + 1);
             }
-        }, 500);
+        }, 100);
     }
 
     private void animateIn(final int i) {
@@ -358,6 +358,6 @@ public class AwesomeFab extends RelativeLayout implements View.OnClickListener {
                 findViewById(linearLayout.getId()).setOnClickListener(context);
                 animateIn(i + 1);
             }
-        }, 500);
+        }, 100);
     }
 }
